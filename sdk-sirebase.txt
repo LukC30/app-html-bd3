@@ -1,0 +1,5 @@
+ <!-- IMPORT DO SDK DO FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+
+<!-- IMPORT DO SDK DO FIRESTORE -->
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
