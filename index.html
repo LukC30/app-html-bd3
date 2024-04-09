@@ -11,10 +11,10 @@
 <body>
     <h1>Livros</h1>
     <div class="content">
-        cu
+        
         <form id="add-book-form">
 
-        </form>
+        </form>     
         <ul id="book-list">
             
         </ul>
@@ -34,7 +34,20 @@
             messagingSenderId: "369543339417",
             appId: "1:369543339417:web:15cabc1ee966eaceaa8708",
             measurementId: "G-25CMRRJZ9S"
-          };
+        };
+        
+        //conexão com o banco de dados
+        firebase.initializeApp(firebaseConfig);
+        
+        //variavel que guarda as informações do banco de dados
+        const db = firebase.firestore();
+        
+        //Teste de conexão
+        console.log("Teste de conexão com o firestore")
+        console.log(db);
+
+
     </script>
+
     <script defer src="./script.js"></script>
 </html>
